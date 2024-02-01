@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import TicTacToe from "./components/TicTacToe"
-import './style.css';
 import Board from './components/Board';
+import './style.css';
 
 
 
