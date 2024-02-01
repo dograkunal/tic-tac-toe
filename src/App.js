@@ -1,11 +1,17 @@
-import React from 'react';
+import React, {useState} from 'react';
+import TicTacToe from "./components/TicTacToe"
 import './style.css';
+import Board from './components/Board';
+
+
+
 
 export default function App() {
   return (
     <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
+      <h1>Tic Tac Toe</h1>
+      <TicTacToe />
+      <Board />
     </div>
   );
 }
